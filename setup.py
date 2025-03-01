@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) 2016 rsmenon
+# Copyright (c) 2025 rsmenon
 # Licensed under the MIT License (https://opensource.org/licenses/MIT)
 
 u"""This is the most up-to-date lexer and highlighter for Mathematica/Wolfram Language source code \
@@ -22,14 +22,14 @@ It currently supports:
 A Sass file containing the styles can be obtained from the package repository for use in static \
 website generators such as Jekyll, Octopress, Pelican, etc.
 
-© 2016 rsmenon
+© 2025 rsmenon
 """
 
 from setuptools import setup
 
 setup(
     name='pygments-mathematica',
-    version='0.3.5',
+    version='0.4.0',
     description='Mathematica/Wolfram Language Lexer for Pygments',
     long_description=__doc__,
     author='rsmenon',
@@ -43,16 +43,16 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
-        'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.12',
+        'Programming Language :: Python :: 3.13',
         'Topic :: Text Processing',
         'Topic :: Utilities',
     ],
     packages=['mathematica'],
-    install_requires=['Pygments >= 2.7.4'],
+    install_requires=['Pygments >= 2.19'],
     include_package_data=False,
     platforms=['any'],
     entry_points={

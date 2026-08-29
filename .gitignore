@@ -13,3 +13,7 @@ pyproject.toml
 .python-version
 uv.lock
 .DS_Store
+
+# Obsidian vault files
+/.obsidian/
+/.trash/
